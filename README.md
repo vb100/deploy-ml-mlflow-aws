@@ -101,7 +101,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <img src="images/Screenshot 2021-08-29 at 00.17.59.png" alt="Model trained sucessfully", width=595><br>
   </li>
   <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>), see the screenshot below.<br>
-    <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=525><br>
+    <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=505><br>
   </li>
   <li>Click on the new experiment, and freely navigate through available options to check metric values and other parameters from the experiment.</li>
   <li>Once you entered to your new experiment space, click on the most recent run tagged with <i>Random Forest Experiment</i> Run time tag. Be sure, that on the <i>Artifacts</i> section you are seeing this kind of structured experiment files with filled content for each file. See screenshot below.<br>
