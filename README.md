@@ -95,7 +95,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
 <ul>
   <li>Open another terminal windown (be sure the first one with activated <i>mlflow</i> service in port <code>:5000</code> is still running).</li>
   <li>Activate the same virtual environment on the second terminal window as we have created in <b>Step no. 1</b> with the following command: <code>conda activate deploy_ml</code></li>
-  <li>Navigate you terminal to the project environment with <code>cd</code> (<i>change directory)</i> terminal command.</li>
+  <li>Navigate you terminal to the project environment with <code>cd</code> (<i>change directory</i>) terminal command.</li>
   <li>From the second terminal window, simply run the model training code <i>train.py</i> with the command in your terminal: <code>python train.py</code></li>
 </ul>
   
