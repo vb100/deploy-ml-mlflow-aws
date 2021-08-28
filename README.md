@@ -38,7 +38,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
 </ul>
 </p>
 
-<p><h3>Step 3.Test if <i>mlflow</i> is working good</h3>
+<p><h3>Step 3. Test if <i>mlflow</i> is working good</h3>
 <ul>
 <li>Before doing all following steps, we must be sure if our freshly installed <i>mlflow</i> service if working good on our local machine. To do it, type the following command in the terminal: <code>mlflow ui</code>.</li>
   <li>Open the <i>mlflow</i> dashboard on you browser by entering following URL to your <i>localhost</i>: <code>http://127.0.0.1:5000</code><br>Please keep in mind that this service uses port <code>5000</code> on your machine.<br>You should see <i>mlflow</i> dashboard interface it is shown in the screenshot below:<br>
@@ -50,5 +50,8 @@ With this repo you can follow the provided steps on your local machine and AWS a
 
 <p><h3>Step 4. Adapt your ML training code for <i>mlflow</i></h3>
 Usually we work with plain Python code in our local machine to train, debug and improve our ML models. In order to make out ML code be understandable for <i>mlflow</i> we must do quick changes in model training codes, described in the following steps.
-
+<ul>
+  <li>Copy and paste the full code from <i>train.py</i> (available in this repo).</li>
+  <li>Adapt the Python code inside to track some model metrics in <i>mlfflow</i> with following changes in code:</li>
+</ul>
 </p>
