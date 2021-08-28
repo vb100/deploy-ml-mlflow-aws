@@ -29,5 +29,11 @@ With this repo you can follow the provided steps on your local machine and AWS a
  <p><h3>Step 2. Install dependencies in you virtual environment</h3></p>
 <ul>
   <li>Install <i>mlflow</i> package into our virtual environment with the following command:<br><code>pip install mlflow</code>.<br>At the moment of preparing this repo, the version of <i>mlfflow</i> is <code>mlflow==1.20.1</code>.</li>
+  <li>To run properly the ML model itself we have to install following modules and packages to our virtual environment as well:
+  <ul>
+    <li>Pandas: <code>pip install pandas</code></li>
+    <li>Scikit-learn: <code>pip install -U scikit-learn</code></li>
+    </ul>
+  </li>
 </ul>
 </p>
