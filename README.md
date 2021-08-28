@@ -112,5 +112,7 @@ Among the artifact files, there is a <i>conda.yaml</i> file. This is the environ
   <img src="images/Screenshot 2021-08-29 at 00.47.20.png" alt="Generated model artifacts in Finder", width=725><br>
   </li>
 </ul>
-  
+When we are sure that our model can be sucessfully tracked with local <i>mlflow</i> user interface on your local machine, we can go forward to bring our model to the clouds.
 </p>
+
+<p><h3>Amazon ECR Image</h3></p>
