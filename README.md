@@ -53,5 +53,15 @@ Usually we work with plain Python code in our local machine to train, debug and 
 <ul>
   <li>Copy and paste the full code from <i>train.py</i> (available in this repo).</li>
   <li>Adapt the Python code inside to track some model metrics in <i>mlfflow</i> with following changes in code:</li>
+  
+```` py
+import mlflow
+import mlflow.sklearn
+````
+  
+```` py
+mlflow.set_experiment("my_classification_model")
+````
+  
 </ul>
 </p>
