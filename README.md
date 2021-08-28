@@ -89,3 +89,11 @@ with mlflow.start_run(run_name="Iris RF Experiment") as run:
   With the code changes above, we are ready to track <code>mse</code> (</i>Mean Squared Error</i>) metric for the model and generate some run artifacts in <i>mlflow</i> dashboard.
 </ul>
 </p>
+
+<p><h3>Step 5. Run the model and track metrics in <i>mlflow</i></h3>
+Once we finished the latest step in this tutorial, <i>mlflow</i> is able to track desired metrics (in our example, <code>mse</code>) in <i>mlflow</i> dashboard. To do it properly, do the following:
+<ul>
+  <li>Simply run the model training code <i>train.py</i> with the command in your terminal: <code>python train.py</code></li>
+</ul>
+  
+</p>
