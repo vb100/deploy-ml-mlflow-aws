@@ -115,4 +115,6 @@ Among the artifact files, there is a <i>conda.yaml</i> file. This is the environ
 When we are sure that our model can be sucessfully tracked with local <i>mlflow</i> user interface on your local machine, we can go forward to bring our model to the clouds.
 </p>
 
-<p><h3>Amazon ECR Image</h3></p>
+<p><h3>Amazon ECR Image</h3>
+Now that we have saved our model artifact, we need to start thinking about deployment. The first step is to provide a Docker image to <b>AWS Elastic Container Registry</b> which we can use to serve our model.
+</p>
