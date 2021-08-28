@@ -15,4 +15,5 @@ With this repo you can follow the provided steps on your local machine and AWS a
     <li>Docker installed on your local machine.</li>
     <li>Python <b>3.6</b> (or higher) with <code>mlflow>=1.0.0</code> installed.</li>
   </ul>
+ Next, I will demonstrate how to install <i>mlflow</i> to your dedicated virtual environment. For this I will use Mac OS, but you can do the same steps on both Windows and Mac OS.
 </p>
