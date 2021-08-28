@@ -63,5 +63,28 @@ import mlflow.sklearn
 mlflow.set_experiment("my_classification_model")
 ````
   
+```` py
+with mlflow.start_run(run_name="Iris RF Experiment") as run:
+    mlflow.log_param("num_estimators",num_estimators)
+````
+  
+```` py
+    mlflow.sklearn.log_model(rf, "random-forest-model")
+````
+  
+```` py
+    # log model performance
+    mlflow.sklearn.log_model(rf, "random-forest-model")
+````
+  
+```` py
+    # close mlflow connection
+    run_id = run.info.run_uuid
+    experiment_id = run.info.experiment_id
+    mlflow.end_run()
+    print(mlflow.get_artifact_uri())
+    print("runID: %s" % run_id)
+````
+  
 </ul>
 </p>
