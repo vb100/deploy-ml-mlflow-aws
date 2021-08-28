@@ -93,7 +93,9 @@ with mlflow.start_run(run_name="Iris RF Experiment") as run:
 <p><h3>Step 5. Run the model and track metrics in <i>mlflow</i></h3>
 Once we finished the latest step in this tutorial, <i>mlflow</i> is able to track desired metrics (in our example, <code>mse</code>) in <i>mlflow</i> dashboard. To do it properly, do the following:
 <ul>
-  <li>Simply run the model training code <i>train.py</i> with the command in your terminal: <code>python train.py</code></li>
+  <li>Open another terminal windown (be sure the first one with activated <i>mlflow</i> service in port <code>:5000</code> is still running).</li>
+  <li>Activate the same virtual environment on the second terminal window as we have created in <b>Step no. 1</b> with the following command: <code>conda activate deploy_ml</code></li>
+  <li>From the second terminal window, simply run the model training code <i>train.py</i> with the command in your terminal: <code>python train.py</code></li>
 </ul>
   
 </p>
