@@ -101,7 +101,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <img src="images/Screenshot 2021-08-29 at 00.17.59.png" alt="Model trained sucessfully", width=585><br>
   </li>
   <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>), see the screenshot below.<br>
-    <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=555><br>
+    <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=525><br>
   </li>
 </ul>
   
