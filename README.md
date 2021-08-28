@@ -73,8 +73,8 @@ with mlflow.start_run(run_name="Iris RF Experiment") as run:
 ````
   
 ```` py
-    # log model performance
-    mlflow.sklearn.log_model(rf, "random-forest-model")
+    # Log model metrics (mse - mean squared error)
+    mlflow.log_metric("mse", mse)
 ````
   
 ```` py
