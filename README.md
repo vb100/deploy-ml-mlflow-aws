@@ -42,7 +42,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
 <ul>
 <li>Before doing all following steps, we must be sure if our freshly installed <i>mlflow</i> service if working good on our local machine. To do it, type the following command in the terminal: <code>mlflow ui</code>.</li>
   <li>Open the <i>mlflow</i> dashboard on you browser by entering following URL to your <i>localhost</i>: <code>http://127.0.0.1:5000</code><br>Please keep in mind that this service uses port <code>5000</code> on your machine.<br>You should see <i>mlflow</i> dashboard interface it is shown in the screenshot below:<br>
-  <img src="images/Screenshot 2021-08-28 at 17.02.00.png" alt="MLflow Dashboard Interface", width=460><br>
+  <img src="images/Screenshot 2021-08-28 at 17.02.00.png" alt="MLflow Dashboard Interface", width=585><br>
     If you see the same on your browser too, <i>mlflow</i> works fine and we are ready to go to the next steps.
   </li>
 </ul>
@@ -100,7 +100,9 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <li>Once the train script executed sucessfully, you will be notificated about creation of new experiment in <i>mlflow</i>, calculated MSE, absolute directory path to model artifacts, and <code>runID</code>, see the screen below.<br>
   <img src="images/Screenshot 2021-08-29 at 00.17.59.png" alt="Model trained sucessfully", width=585><br>
   </li>
-  <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>).</li>
+  <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>), see the screenshot below.
+    <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=585><br>
+  </li>
 </ul>
   
 </p>
