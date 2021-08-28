@@ -98,7 +98,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <li>Navigate you terminal to the project environment with <code>cd</code> (<i>change directory</i>) terminal command.</li>
   <li>From the second terminal window, simply run the model training code <i>train.py</i> with the command in your terminal: <code>python train.py</code></li>
   <li>Once the train script executed sucessfully, you will be notificated about creation of new experiment in <i>mlflow</i>, calculated MSE, absolute directory path to model artifacts, and <code>runID</code>, see the screen below.<br>
-  <img src="images/Screenshot 2021-08-29 at 00.17.59.png" alt="Model trained sucessfully", width=570><br>
+  <img src="images/Screenshot 2021-08-29 at 00.17.59.png" alt="Model trained sucessfully", width=585><br>
   </li>
 </ul>
   
