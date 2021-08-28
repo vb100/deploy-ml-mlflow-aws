@@ -5,4 +5,5 @@
     <li><b>Mlflow</b> - an open source platform for the ML lifecycle.</li>
     <li><b>AWS CLI</b> - is an unified tool to manage your Amazon Web Services (AWS) services.</li>
   </ul>
+With this repo you can follow the provided steps on your local machine and AWS account. All steps will be explained clearly with screens and real example.
 </p>
