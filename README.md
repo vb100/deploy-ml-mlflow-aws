@@ -20,9 +20,9 @@ With this repo you can follow the provided steps on your local machine and AWS a
  
  <p><h3>Step 1. Prepare you Python Virtual environment</h3>
  With this step we will create dedicated virtual environment to perform the whole example in this repo. Do the following steps.
- <li>
-  <ul>Create a new conda virtual environment in you working directory with the following command in your terminal:<br><code>conda create --name deploy_ml python=3.6</code><br>With this command you will create a new conda based virtual environment on your local machine.</ul>
- </li>
+ <ul>
+  <li>Create a new conda virtual environment in you working directory with the following command in your terminal:<br><code>conda create --name deploy_ml python=3.6</code><br>With this command you will create a new conda based virtual environment on your local machine.</li>
+ </ul>
  </p>
  
 </p>
