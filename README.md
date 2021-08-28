@@ -85,6 +85,7 @@ with mlflow.start_run(run_name="Iris RF Experiment") as run:
     print(mlflow.get_artifact_uri())
     print("runID: %s" % run_id)
 ````
-  
+
+  With the code changes above, we are ready to track <code>mse</code> (</i>Mean Squared Error</i>) for the model in <i>mlflow</i> dashboard.
 </ul>
 </p>
