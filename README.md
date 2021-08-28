@@ -31,8 +31,8 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <li>Install <i>mlflow</i> package into our virtual environment with the following command:<br><code>pip install mlflow</code>.<br>At the moment of preparing this repo, the version of <i>mlfflow</i> is <code>mlflow==1.20.1</code>.</li>
   <li>To run properly the ML model itself we have to install following modules and packages to our virtual environment as well:
   <ul>
-    <li>Pandas: <code>pip install pandas</code></li>
-    <li>Scikit-learn: <code>pip install -U scikit-learn</code></li>
+    <li>Pandas: <code>pip install pandas</code>.</li>
+    <li>Scikit-learn: <code>pip install -U scikit-learn</code>.</li>
     </ul>
   </li>
 </ul>
@@ -100,6 +100,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <li>Once the train script executed sucessfully, you will be notificated about creation of new experiment in <i>mlflow</i>, calculated MSE, absolute directory path to model artifacts, and <code>runID</code>, see the screen below.<br>
   <img src="images/Screenshot 2021-08-29 at 00.17.59.png" alt="Model trained sucessfully", width=585><br>
   </li>
+  <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>).</li>
 </ul>
   
 </p>
