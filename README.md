@@ -1,4 +1,4 @@
-<h1>Deployting Models to Production with MLflow and Amazon Sagemaker</h1>
+<h1>Deploying Models to Production with MLflow and Amazon Sagemaker</h1>
 
 <p>This repo introduces how to prepare you Machine Learning (ML) model for production in AWS Sagemaker with the help of MLflow and AWS Command Line Inteface (AWS CLI). Before start, we should know what is what:
   <ul>
