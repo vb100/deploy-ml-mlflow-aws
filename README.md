@@ -7,3 +7,12 @@
   </ul>
 With this repo you can follow the provided steps on your local machine and AWS account. All steps will be explained clearly with screens and real example.
 </p>
+
+<h2>Setup</h2>
+<p>For this tutorial you will need:
+  <ul>
+    <li>AWS Account.</li>
+    <li>Docker installed on your local machine.</li>
+    <li>Python <b>3.6</b> (or higher) with <code>mlflow>=1.0.0</code> installed.</li>
+  </ul>
+</p>
