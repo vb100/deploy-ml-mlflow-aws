@@ -8,7 +8,7 @@
 With this repo you can follow the provided steps on your local machine and AWS account. All steps will be explained clearly with screens and real example.
 </p>
 
-<h2>Setup</h2>
+<h3>Setup</h3>
 <p>For this tutorial you will need:
   <ul>
     <li>AWS Account.</li>
@@ -36,4 +36,8 @@ With this repo you can follow the provided steps on your local machine and AWS a
     </ul>
   </li>
 </ul>
+</p>
+
+<p><h3>Test if <i>mlflow</i> is working good</h3>
+Before doing all following steps, we must be sure if our freshly installed <i>mlflow</i> service if working good on our local machine. To do it, type the following command in the terminal:<br><code>mlflow ui</code>.
 </p>
