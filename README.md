@@ -103,6 +103,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>), see the screenshot below.<br>
     <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=525><br>
   </li>
+  <li>Click on the new experiment, and freely navigate through available options to check metric values and other parameters from the experiment.</li>
 </ul>
   
 </p>
