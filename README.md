@@ -104,6 +104,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
     <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=525><br>
   </li>
   <li>Click on the new experiment, and freely navigate through available options to check metric values and other parameters from the experiment.</li>
+  <li>Once you entered to your new experiment space, click on the most recent run tagged with <i>Random Forest Experiment</i> Run time tag. Be sure, that on the <i>Artifacts</i> section you are seeing this kind of structured experiment files with filled content for each file. See screenshot below.</li>
 </ul>
   
 </p>
