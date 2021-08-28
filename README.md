@@ -22,7 +22,12 @@ With this repo you can follow the provided steps on your local machine and AWS a
  With this step we will create dedicated virtual environment to perform the whole example in this repo. Do the following steps.
  <ul>
   <li>Create a new conda virtual environment in you working directory with the following command in your terminal:<br><code>conda create --name deploy_ml python=3.6</code><br>With this command you will create a new conda based virtual environment on your local machine.</li>
+  <li>Once your virtual environment is sucessfully create, you can easily to activate it with the following command:<br><code>conda activate deploy_ml</code><br>At this moment we are having an almost empty virtual environment which is ready to be filled with new dependencies.</li>
  </ul>
  </p>
  
+ <p><h3>Step 2. Install dependencies in you virtual environment</h3></p>
+<ul>
+  <li>Install <i>mlflow</i> package into our virtual environment with the following command:<br><code>pip install mlflow</code>.</li>
+</ul>
 </p>
