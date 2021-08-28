@@ -107,6 +107,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <li>Once you entered to your new experiment space, click on the most recent run tagged with <i>Random Forest Experiment</i> Run time tag. Be sure, that on the <i>Artifacts</i> section you are seeing this kind of structured experiment files with filled content for each file. See screenshot below.<br>
   <img src="images/Screenshot 2021-08-29 at 00.42.22.png" alt="Generated model artifacts in Mlflow UI", width=575><br>
   </li>
+  <li>Also, check the file structure in you <i>Finder</i> (Mac OS), or in <i>Windows explorer</i> (Windows OS). You should see new folder <i><b>mlruns</b></i> created in your project directory with run numbers folder(<i>0</i>, <i>1</i>, and so on), <code>runID</code> folder, and full set of artifacts inside. See the screenshot below.</li>
 </ul>
   
 </p>
