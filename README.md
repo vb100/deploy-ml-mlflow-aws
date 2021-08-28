@@ -14,6 +14,15 @@ With this repo you can follow the provided steps on your local machine and AWS a
     <li>AWS Account.</li>
     <li>Docker installed on your local machine.</li>
     <li>Python <b>3.6</b> (or higher) with <code>mlflow>=1.0.0</code> installed.</li>
+    <li>Anaconda software to create conda virtual environment.</li>
   </ul>
  Next, I will demonstrate how to install <i>mlflow</i> to your dedicated virtual environment. For this I will use Mac OS, but you can do the same steps on both Windows and Mac OS.
+ 
+ <p><h3>Step 1. Prepare you Python Virtual environment</h3>
+ With this step we will create dedicated virtual environment to perform the whole example in this repo. Do the following steps.
+ <li>
+  <ul>Create a new conda virtual environment in you working directory with the following command in your terminal:<br><code>conda create --name deploy_ml python=3.6</code><br>With this command you will create a new conda based virtual environment on your local machine.</ul>
+ </li>
+ </p>
+ 
 </p>
