@@ -86,6 +86,6 @@ with mlflow.start_run(run_name="Iris RF Experiment") as run:
     print("runID: %s" % run_id)
 ````
 
-  With the code changes above, we are ready to track <code>mse</code> (</i>Mean Squared Error</i>) for the model in <i>mlflow</i> dashboard.
+  With the code changes above, we are ready to track <code>mse</code> (</i>Mean Squared Error</i>) metric for the model and generate some run artifacts in <i>mlflow</i> dashboard.
 </ul>
 </p>
