@@ -184,7 +184,6 @@ Prepare the alternative table of your own parameters also.
       <img src="images/Screenshot 2021-08-30 at 00.55.54.png" alt="ECR Policy Name", width=575><br>
       </li>
       <li>Click <b><i>Create policy</i></b>.</li>
-    <ul>
       After these steps you should see a newly created policy in the list of policies for the user. See the screenshot below.
     </li>
   </ul>
