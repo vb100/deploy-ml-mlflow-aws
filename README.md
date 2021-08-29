@@ -186,7 +186,9 @@ Prepare the alternative table of your own parameters also.
       <li>Click <b><i>Create policy</i></b>.</li>
     </li>
   </ul>
-  After these steps you should see a newly created policy in the list of policies for the user. See the screenshot below.
+  <p>After these steps you should see a newly created policy in the list of policies for the user. See the screenshot below.
+  
+  </p>
 </li>
 </ul>
 </p>
