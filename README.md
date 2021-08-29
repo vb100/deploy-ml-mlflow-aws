@@ -123,6 +123,7 @@ Now that we have saved our model artifact, we need to start thinking about deplo
     <li><i>Programmatic access</i></li>
     <li><i>AWS Management Console access</i></li>
     </ul>
+    Leave other properties as in its default values.
   </li>
   <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:</li>
 </ul>
