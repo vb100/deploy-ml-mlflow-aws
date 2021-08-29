@@ -133,6 +133,19 @@ Now that we have saved our model artifact, we need to start thinking about deplo
   <p>
   <u><b>Important</b>:</u> Please keep both your Access key ID and Secret access key in the safe place. We will use it in the next steps.
   </p>
+  <p>
+  Let's make a quick checkpoint here and write it down what we have at the moment:
+    
+| Service/Parameter name | Value |
+| :---: | :---: |
+| Experiment name | <code>my_classification_model</code> |
+| User | <code>vytautas</code> |
+| <code>run_id</code> | <code>a77178c0fc0d4dddbe8bd1a856aa7d82</code> |
+| Access key ID | <code>AKIAQWIN6X2GSFUEYSXU</code> |
+| Secret access key | <code>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</code> |
+| Password | <code>Oo=HRCpgwg9kq_8</code> |
+    
+  </p>
 </li>
     </ul>
   </li>
