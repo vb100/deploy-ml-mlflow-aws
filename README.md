@@ -169,10 +169,11 @@ Prepare the alternative table of your own parameters also.
     </ul>
     After these steps you should see a new role created in the list, see the screenshot below.
     <img src="images/Screenshot 2021-08-30 at 00.21.21.png" alt="New IAM Role", width=615><br>
-    <li><b>Create a Policy.</b>
+    <li><b>Create a Policy for the User.</b>
     <ul>
       <li>Select <b><i>Users</i></b> from the left side menu.</li>
       <li>Click small cross icon on the right side or <b><i>Add inline policy</i></b> option.</li>
+      <li>Click <b><i>Choose a service</i></b> followed by <i>Service</i> option.</li>
     <ul>
     </li>
   </ul>
