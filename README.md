@@ -158,7 +158,8 @@ Prepare the alternative table of your own parameters also.
     <li><b>Create an IAM role</b>.</li>
     <ul>
       <li>In <i>IAM</i> dashboard, click on <i><b>Roles</b></i>.</li>
-      <li>Click on <b><i>Create role</i></b></li>
+      <li>Click on <b><i>Create role</i></b>.</li>
+      <li>On the next screen, click on <b><i>Elastic Container Registry</i></b>. Click on <b><i>Permissions</i></b>.</li>
     </ul>
   </ul>
 </li>
