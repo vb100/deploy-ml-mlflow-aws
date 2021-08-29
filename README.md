@@ -128,7 +128,9 @@ Now that we have saved our model artifact, we need to start thinking about deplo
       <li>Here keep activated <i>Add use to group</i> option and click on <b><i>Next: Tags</i></b>.</li>
       <li>You can skip <i>Add tags (optional)</i> step and click on <b></i>Next: Review</i></b>.</li>
       <li>Finally, you can finish to create your new user by clicking on <b><i>Create user</i></b>.</li>
-      <li>If everything is fine, on the next screen you will see a notification informing you about success. With this moment, the <b>Access key ID</b> and <b>Secret access key</b> is being generated especially for your user, see the screenshot below.</li>
+      <li>If everything is fine, on the next screen you will see a notification informing you about success. With this moment, the <b>Access key ID</b> and <b>Secret access key</b> is being generated especially for your user, see the screenshot below.
+<img src="images/Screenshot 2021-08-29 at 16.36.03.png" alt="Generated model artifacts in Finder", width=725><br>
+</li>
     </ul>
   </li>
   <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:</li>
