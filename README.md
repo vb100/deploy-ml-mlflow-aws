@@ -153,7 +153,11 @@ Prepare the alternative table of your own parameters also.
 </li>
     </ul>
   </li>
-  <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:</li>
+  <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:
+  <ul>
+    <li><b>Create an IAM role</b>.</li>
+  </ul>
+</li>
 </ul>
 </p>
 
