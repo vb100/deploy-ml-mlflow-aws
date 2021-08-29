@@ -172,6 +172,7 @@ Prepare the alternative table of your own parameters also.
     <li><b>Create a Policy.</b>
     <ul>
       <li>Select <b><i>Users</i></b> from the left side menu.</li>
+      <li>Click small cross icon on the right side or <b><i>Add inline policy</i></b> option.</li>
     <ul>
     </li>
   </ul>
