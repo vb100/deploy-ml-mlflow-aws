@@ -180,7 +180,9 @@ Prepare the alternative table of your own parameters also.
       <img src="images/Screenshot 2021-08-30 at 00.48.35.png" alt="ECR Policy Resources", width=575><br>
       </li>
       <li>Click <b><i>Review policy</i></b>.</li>
-      <li>On the next step, set a name for the policy. I set it as <i>policy-for-ecr</i> in this example.</li>
+      <li>On the next step, set a name for the policy. I set it as <i>policy-for-ecr</i> in this example, see the screenshot below.
+      <img src="images/Screenshot 2021-08-30 at 00.55.54.png" alt="ECR Policy Name", width=575><br>
+      </li>
     <ul>
     </li>
   </ul>
