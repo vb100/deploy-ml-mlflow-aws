@@ -163,6 +163,9 @@ Prepare the alternative table of your own parameters also.
       <li>On the next screen, you will see <i>ECRReplicationServiceRolePolicy</i> policy listed. You can extend it to see the full Policy parameters set in JSON format. See the screenshot below to be sure you are on the same position.
       <img src="images/Screenshot 2021-08-30 at 00.07.37.png" alt="ECR Privilege on IAM Role", width=625><br>
       </li>
+      <li>Click <b><i>Next: Tags</i></b>.</li>
+      <li>Click <b><i>Next: Review</i></b>.</li>
+      <li>You can provide an quick role description and finally click <b><i>Create role</i></b>.</li>
     </ul>
   </ul>
 </li>
