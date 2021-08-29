@@ -176,7 +176,9 @@ Prepare the alternative table of your own parameters also.
       <li>Click <b><i>Choose a service</i></b> followed by <i>Service</i> option.</li>
       <li>From the list below select <b><i>Elastic Container Registry</i></b>, see the screenshot below.
       <img src="images/Screenshot 2021-08-30 at 00.45.06.png" alt="ECR Policy to the User", width=605><br></li>
-      <li>Select <i><b>All resources</b></i> in front of <i>Resources</i> section, see the screenshot below.</li>
+      <li>Select <i><b>All resources</b></i> in front of <i>Resources</i> section, see the screenshot below.
+      <img src="images/Screenshot 2021-08-30 at 00.48.35.png" alt="ECR Policy Resources", width=575><br>
+      </li>
     <ul>
     </li>
   </ul>
