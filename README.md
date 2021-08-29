@@ -156,6 +156,10 @@ Prepare the alternative table of your own parameters also.
   <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:
   <ul>
     <li><b>Create an IAM role</b>.</li>
+    <ul>
+      <li>In <i>IAM</i> dashboard, click on <i><b>Roles</b></i>.</li>
+      <li>Click on <b><i>Create role</i></b></li>
+    </ul>
   </ul>
 </li>
 </ul>
