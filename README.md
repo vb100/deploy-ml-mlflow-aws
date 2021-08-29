@@ -144,6 +144,8 @@ Now that we have saved our model artifact, we need to start thinking about deplo
 | Access key ID | <code>AKIAQWIN6X2GSFUEYSXU</code> | <i>AWS IAM</i> |
 | Secret access key | <code>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</code> | <i>AWS IAM</i> |
 | Password | <code>Oo=HRCpgwg9kq_8</code> | <i>AWS IAM</i> |
+    
+    <li>Finally, click <i>Close</i>. On the <i>IAM Users</i> section you will see a new user is being created by you, see the screenshot below.</li>
 
 Prepare the alternative table of your own parameters also.
   </p>
