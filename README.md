@@ -120,13 +120,14 @@ Now that we have saved our model artifact, we need to start thinking about deplo
 <ul>
   <li>The first step in here is to create out user in <i>AWS Console</i>. To do it, go to <b><i>IAM (Identity and Access Management)</i></b>, then select <b><i>Users</i></b> from the list menu on the left. Then select <b>Add users</b>. On the next screen, provide the new name of <i>User name</i> and mark following checkboxes:
   <ul>
-    <li><i>Programmatic access</i></li>
-    <li><i>AWS Management Console access</i></li>
+    <li><i>Programmatic access</i>.</li>
+    <li><i>AWS Management Console access</i>.</li>
     </ul>
     Leave other properties as in its default values. Now click on <b><i>Next: Permissions</i></b>.
     <ul>
       <li>Here keep activated <i>Add use to group</i> option and click on <b><i>Next: Tags</i></b>.</li>
-      <li>You can skip <i>Add tags (optional)</i> step and click on <b></=i>Next: Review</i></b>.</li>
+      <li>You can skip <i>Add tags (optional)</i> step and click on <b></i>Next: Review</i></b>.</li>
+      <li>Finally, you can finish to create your new user by clicking on <b><i>Create user</i></b>.</li>
     </ul>
   </li>
   <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:</li>
