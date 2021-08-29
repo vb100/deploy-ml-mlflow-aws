@@ -171,6 +171,7 @@ Prepare the alternative table of your own parameters also.
     <img src="images/Screenshot 2021-08-30 at 00.21.21.png" alt="New IAM Role", width=615><br>
   </ul>
 </li>
+<li><b>Create a Policy.</b></li>
 </ul>
 </p>
 
