@@ -160,13 +160,15 @@ Prepare the alternative table of your own parameters also.
       <li>In <i>IAM</i> dashboard, click on <i><b>Roles</b></i>.</li>
       <li>Click on <b><i>Create role</i></b>.</li>
       <li>On the next screen, click on <b><i>Elastic Container Registry</i></b>. Click on <b><i>Permissions</i></b>.</li>
-      <li>On the next screen, you will see <i>ECRReplicationServiceRolePolicy</i> policy listed. You can extend it to see the full Policy parameters set in JSON format. See the screenshot below to be sure you are on the same position.
+      <li>On the next screen, you will see <i>ECRReplicationServiceRolePolicy</i> policy listed. You can extend it to see the full Policy parameters set in JSON format. See the screenshot below to be sure you are on the same position.<br>
       <img src="images/Screenshot 2021-08-30 at 00.07.37.png" alt="ECR Privilege on IAM Role", width=625><br>
       </li>
       <li>Click <b><i>Next: Tags</i></b>.</li>
       <li>Click <b><i>Next: Review</i></b>.</li>
       <li>You can provide an quick role description and finally click <b><i>Create role</i></b>.</li>
     </ul>
+    After these steps you should see a new role created in the list, see the screenshot below.
+    <img src="images/Screenshot 2021-08-30 at 00.21.21.png" alt="New IAM Role", width=615><br>
   </ul>
 </li>
 </ul>
