@@ -186,7 +186,7 @@ Prepare the alternative table of your own parameters also.
       <li>Click <b><i>Create policy</i></b>.</li>
     </li>
   </ul>
-  <p>After these steps you should see a newly created policy in the list of policies for the user. See the screenshot below.
+  <p>After these steps you should see a newly created policy in the list of policies for the user, where Policy type is <i>Inline policy</i>. See the screenshot below.
   <img src="images/Screenshot 2021-08-30 at 00.58.52.png" alt="New policy in the list", width=575><br>
   </p>
 </li>
