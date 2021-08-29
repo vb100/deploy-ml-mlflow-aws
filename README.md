@@ -183,6 +183,7 @@ Prepare the alternative table of your own parameters also.
       <li>On the next step, set a name for the policy. I set it as <i>policy-for-ecr</i> in this example, see the screenshot below.
       <img src="images/Screenshot 2021-08-30 at 00.55.54.png" alt="ECR Policy Name", width=575><br>
       </li>
+      <li>Click <b><i>Create policy</i></b>.</li>
     <ul>
     </li>
   </ul>
