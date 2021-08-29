@@ -169,8 +169,8 @@ Prepare the alternative table of your own parameters also.
     </ul>
     After these steps you should see a new role created in the list, see the screenshot below.
     <img src="images/Screenshot 2021-08-30 at 00.21.21.png" alt="New IAM Role", width=615><br>
+    <li><b>Create a Policy.</b></li>
   </ul>
-  <li><b>Create a Policy.</b></li>
 </li>
 </ul>
 </p>
