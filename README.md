@@ -117,5 +117,8 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 
 <p><h3>Amazon ECR Image</h3>
 Now that we have saved our model artifact, we need to start thinking about deployment. The first step is to provide a Docker image to <b>AWS Elastic Container Registry</b> which we can use to serve our model.
-<li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User.</li>
+<ul>
+  <li>The first step in here is to create out user in <i>AWS Console</i>. To do it, go to <b><i>IAM (Identity and Access Management)</i></b>, then select <b><i>Users</i></b> from the list menu on the left.</li>
+  <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:</li>
+</ul>
 </p>
