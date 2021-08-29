@@ -126,6 +126,7 @@ Now that we have saved our model artifact, we need to start thinking about deplo
     Leave other properties as in its default values. Now click on <b><i>Next: Permissions</i></b>.
     <ul>
       <li>Here keep activated <i>Add use to group</i> option and click on <b><i>Next: Tags</i></b>.</li>
+      <li>You can skip <i>Add tags (optional) step and click on <b><i>Next: Review</i></b>.</li>
     </ul>
   </li>
   <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:</li>
