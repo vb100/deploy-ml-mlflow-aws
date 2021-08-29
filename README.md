@@ -129,7 +129,7 @@ Now that we have saved our model artifact, we need to start thinking about deplo
       <li>You can skip <i>Add tags (optional)</i> step and click on <b></i>Next: Review</i></b>.</li>
       <li>Finally, you can finish to create your new user by clicking on <b><i>Create user</i></b>.</li>
       <li>If everything is fine, on the next screen you will see a notification informing you about success. With this moment, the <b>Access key ID</b> and <b>Secret access key</b> is being generated especially for your user, see the screenshot below.
-<img src="images/Screenshot 2021-08-29 at 16.36.03.png" alt="Generated model artifacts in Finder", width=685><br>
+<img src="images/Screenshot 2021-08-29 at 16.36.03.png" alt="New User in IAM info", width=685><br>
   <p>
   <u><b>Important</b>:</u> Please keep both your Access key ID and Secret access key in the safe place. We will use it in the next steps.
   </p>
@@ -149,6 +149,7 @@ Prepare the alternative table of your own parameters also.
   </p>
   
   <li>Finally, click <i>Close</i>. On the <i>IAM Users</i> section you will see a new user is being created by you, see the screenshot below.</li>
+  <img src="images/Screenshot 2021-08-29 at 17.04.23.png" alt="New user in IAM", width=685><br>
 </li>
     </ul>
   </li>
