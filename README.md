@@ -160,6 +160,7 @@ Prepare the alternative table of your own parameters also.
       <li>In <i>IAM</i> dashboard, click on <i><b>Roles</b></i>.</li>
       <li>Click on <b><i>Create role</i></b>.</li>
       <li>On the next screen, click on <b><i>Elastic Container Registry</i></b>. Click on <b><i>Permissions</i></b>.</li>
+      <li>On the next screen, you will see <i>ECRReplicationServiceRolePolicy</i> policy listed. You can extend it to see the full Policy parameters set in JSON format. See the screenshot below to be sure you are on the same position.</li>
     </ul>
   </ul>
 </li>
