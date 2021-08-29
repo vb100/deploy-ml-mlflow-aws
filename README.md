@@ -179,6 +179,7 @@ Prepare the alternative table of your own parameters also.
       <li>Select <i><b>All resources</b></i> in front of <i>Resources</i> section, see the screenshot below.
       <img src="images/Screenshot 2021-08-30 at 00.48.35.png" alt="ECR Policy Resources", width=575><br>
       </li>
+      <li>Click <b><i>Review policy</i></b>.</li>
     <ul>
     </li>
   </ul>
