@@ -174,6 +174,7 @@ Prepare the alternative table of your own parameters also.
       <li>Select <b><i>Users</i></b> from the left side menu.</li>
       <li>Click small cross icon on the right side or <b><i>Add inline policy</i></b> option.</li>
       <li>Click <b><i>Choose a service</i></b> followed by <i>Service</i> option.</li>
+      <li>From the list below select <b><i>Elastic Container Registry</i></b>, see the screenshot below.</li>
     <ul>
     </li>
   </ul>
