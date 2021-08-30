@@ -158,8 +158,7 @@ Prepare the alternative table of your own parameters also.
   <ul>
   <li>Go to you second terminal and install <code>awscli</code> with the command: <code>pip install awscli --upgrade --user</code>.</li>
     <li>Set your User credentials after typing <code>aws configure</code>. See the screenshot below to take a look at the filled configuration information terminal window.<br>
-      
-      
+      <img src="images/Screenshot 2021-08-31 at 01.02.48.png" alt="New user in IAM", width=685><br>
     </li>
 </ul>
 </p>
