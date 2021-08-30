@@ -156,7 +156,8 @@ Prepare the alternative table of your own parameters also.
   <p>
   <li><b>Install <code>awscli</code> and set parameters in AWS command line</b></li>
   <ul>
-  <li>Go to you second terminal and install <code>awscli</code> with the command: <code>pip install awscli --upgrade --user</code></li>
+  <li>Go to you second terminal and install <code>awscli</code> with the command: <code>pip install awscli --upgrade --user</code>.</li>
+    <li>Set your User credentials after typing <code>aws configure</code>.</li>
 </ul>
 </p>
   
