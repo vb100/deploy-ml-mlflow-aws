@@ -153,6 +153,11 @@ Prepare the alternative table of your own parameters also.
 </li>
     </ul>
   </li>
+  <li><b>Install <code>awscli</code> and set parameters in AWS command line</b></li>
+  <ul>
+  <li>Go to you second terminal and install <code>awscli</code> with the command: <code>pip install awscli --upgrade --user</code></li>
+</ul>
+  
   <li>Before pushing our model directly to AWS ECR, we must to to provide privileges to access AWS ECR to our Account User. We can do it with following steps:
   <ul>
     <li><b>Create an IAM role</b>.</li>
