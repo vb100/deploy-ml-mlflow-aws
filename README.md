@@ -140,7 +140,7 @@ Now that we have saved our model artifact, we need to start thinking about deplo
 | :---: | :---: | :---: |
 | Experiment name | <code>my_classification_model</code> | <i>mlflow</i> UI |
 | User | <code>vytautas</code> | <i>AWS IAM</i> |
-| <code>run_id</code> | <code>a77178c0fc0d4dddbe8bd1a856aa7d82</code> | <i>AWS IAM</i> |
+| <code>run_id</code> | <code>b60fb0bf6fab41e4a224a0f36a6c1be0</code> | <i>AWS IAM</i> |
 | Access key ID | <code>AKIAQWIN6X2GSFUEYSXU</code> | <i>AWS IAM</i> |
 | Secret access key | <code>r1h7UdPyVK3B2xy54OgSHhHL/wcuqRWUQpuKBbG*</code> | <i>AWS IAM</i> |
 | Password | <code>Oo=HRCpgwg9kq_8</code> | <i>AWS IAM</i> |
