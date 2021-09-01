@@ -33,7 +33,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <ul>
     <li>Pandas: <code>pip install pandas</code>.</li>
     <li>Scikit-learn: <code>pip install -U scikit-learn</code>.</li>
-    <li>Boto3: <code>pip install boto3</code></li>
+    <li>Boto3: <code>pip install boto3</code>.</li>
     </ul>
   </li>
 </ul>
