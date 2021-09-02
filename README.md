@@ -59,7 +59,9 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <li>Click on <b><i>Next: Tags</i></b>.</li>
   <li>Click on <b><i>Next: Review</i></b>.</li>
   <li>Click on <b><i>Create user</i></b>.</li>
-  <li>You will get a notification about sucessfully created new User on AWS IAM, see the screenshot below.</li>
+  <li>You will get a notification about sucessfully created new User on AWS IAM, see the screenshot below.
+  <img src="images/Screenshot 2021-09-02 at 17.01.04.png" alt="New IAM User", width=585><br>
+  </li>
   
   </ul>
   <ul>
