@@ -39,7 +39,35 @@ With this repo you can follow the provided steps on your local machine and AWS a
 </ul>
 </p>
 
-<p><h3>Step 3. Test if <i>mlflow</i> is working good</h3>
+<p><h3>Step 3. Setup AWS IAM User and AWS CLI configuration</h3></p>
+<ul>
+  <li><b>Create a new AWS AIM User</b></li>
+  <ul>
+    <li>Open <b><i>Identity and Access management (IAM) dashboard</i></b>.</ll>
+  <li>Click on <b><i>Users</i></b>.</li>
+  <li>Click <b>Add users</b> on the right side of the screen.</li>
+  <li>Set the <i>User name</i> and mark <i>Programmatic access</i> tick below.</li>
+  <li>Click on <i><b>Create group</b></i> as the part of <i>Add user to group</i> option.</li>
+  <li>Type a group name you want to assign to your IAM User.</li>
+  <li>From the list below select following policies:
+    <ul>
+      <li><i><b>AmazonSageMakerFullAccess</b></i>.</li>
+      <li><i><b>...</b></i>.</li>
+    </ul>
+  </li>
+  <li>Click on <b><i>Create group</i></b>, then the current <i>Policies</i> window will be closed.</li>
+  <li>Click on <b><i>Next: Tags</i></b>.</li>
+  <li>Click on <b><i>Next: Review</i></b>.</li>
+  <li>Click on <b><i>Create user</i></b>.</li>
+  <li>You will get a notification about sucessfully created new User on AWS IAM, see the screenshot below.</li>
+  
+  </ul>
+  <ul>
+  <li><b>Setup AWS CLI configuration</b></li>
+  </ul>
+</ul>
+
+<p><h3>Step 4. Test if <i>mlflow</i> is working good</h3>
 <ul>
 <li>Before doing all following steps, we must be sure if our freshly installed <i>mlflow</i> service if working good on our local machine. To do it, type the following command in the terminal: <code>mlflow ui</code>.</li>
   <li>Open the <i>mlflow</i> dashboard on you browser by entering following URL to your <i>localhost</i>: <code>http://127.0.0.1:5000</code><br>Please keep in mind that this service uses port <code>5000</code> on your machine (open the second terminal window on the same working directory before run this command).<br>You should see <i>mlflow</i> dashboard interface it is shown in the screenshot below:<br>
