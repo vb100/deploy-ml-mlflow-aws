@@ -63,7 +63,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <img src="images/Screenshot 2021-09-02 at 17.01.04.png" alt="New IAM User", width=585><br>
   </li>
   
-  </ul>
+  </ul></ul>
   <ul>
   <li><b>Setup AWS CLI configuration</b></li>
   </ul>
