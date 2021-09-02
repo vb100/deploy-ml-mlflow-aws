@@ -78,7 +78,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
         <li><i><b>Default output format</b></i>: set it as <i>json</i>.</li>
       </ul>
     <li>The filled AWS CLI configurations should looks like in the screenshot below.<br>
-      <img src="images/Screenshot 2021-09-02 at 23.50.22.png" alt="AWS CLI Configuration credentials", width=270><br>
+      <img src="images/Screenshot 2021-09-02 at 23.50.22.png" alt="AWS CLI Configuration credentials", width=395><br>
     </li>
     </li>
   </ul>
