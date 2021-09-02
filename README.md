@@ -157,7 +157,7 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
 Among the artifact files, there is a <i>conda.yaml</i> file. This is the environment your model needs to run, and it can be heavily customized based on your needs. 
   </li>
   <li>Also, check the file structure in you <i>Finder</i> (Mac OS), or in <i>Windows explorer</i> (Windows OS). You should see new folder <i><b>mlruns</b></i> created in your project directory with run numbers folder(<i>0</i>, <i>1</i>, and so on), <code>runID</code> folder, and full set of artifacts inside. See the screenshot below.<br>
-  <img src="images/Screenshot 2021-08-29 at 00.47.20.png" alt="Generated model artifacts in Finder", width=725><br>
+  <img src="images/Screenshot 2021-09-03 at 00.49.48.png" alt="Generated model artifacts in Finder", width=725><br>
   </li>
 </ul>
 When we are sure that our model can be sucessfully tracked with local <i>mlflow</i> user interface on your local machine, we can go forward to bring our model to the clouds.
