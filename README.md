@@ -69,6 +69,11 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <li><b>Setup AWS CLI configuration</b></li>
   <ul>
     <li>Be sure you have installed <i>AWS CLI</i> and type command in your terminal: <code>aws configure</code>.</li>
+    <li>Then you will have to enter your own credentials as follows:
+      <ul>
+        <li><i><b>AWS Access Key ID</b></i>: go to <i>IAM</i>, then <i>Users</i>, and click on your user just created. Select <i>Security credentials</i> tab and copy the value of <i>AWS Access Key ID</i></li>
+      </ul>
+    </li>
   </ul>
   </ul>
 </ul>
