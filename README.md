@@ -53,6 +53,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <li>From the list below select following policies:
     <ul>
       <li><i><b>AmazonSageMakerFullAccess</b></i>.</li>
+      <li><i><b>AmazonEC2ContainerRegistryFullAccess</b></i>.</li>
       <li><i><b>...</b></i>.</li>
     </ul>
   </li>
