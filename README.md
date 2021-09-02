@@ -112,7 +112,7 @@ mlflow.set_experiment("my_classification_model")
 ````
   
 ```` py
-with mlflow.start_run(run_name="Iris RF Experiment") as run:
+with mlflow.start_run(run_name="My model experiment") as run:
     mlflow.log_param("num_estimators",num_estimators)
 ````
   
