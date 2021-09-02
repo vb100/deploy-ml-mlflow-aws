@@ -167,7 +167,7 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 <h2>Deploy the model to AWS</h2>
 <p><h3>Build a Docker Image and push it to AWS ECR</h3>
 <ul>
-  <li><code>mlflow sagemaker build-and-push-container</code> (from here: <i>/mlruns/1/ccc73fe5e7784df69b8518e3b9daa0c6/artifacts/random-forest-model</i></li>
+  <li><code>mlflow sagemaker build-and-push-container</code> (from here: <i>/mlruns/1/ccc73fe5e7784df69b8518e3b9daa0c6/artifacts/random-forest-model</i>).</li>
   <li>Check local <b>Docker Desktop</b></li>
   <li>Check <b>AWS ECR</b> repos.</li>
   <li>Check image parameters in <b>AWS ECR</b>.</li>
