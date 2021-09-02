@@ -62,6 +62,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <li>Click on <b><i>Create user</i></b>.</li>
   <li>You will get a notification about sucessfully created new User on AWS IAM, see the screenshot below.
   <img src="images/Screenshot 2021-09-02 at 17.01.04.png" alt="New IAM User", width=585><br>
+    <p><b>Important</b>. Keep safe you credentials on your own notes. This step is only one occasion you see <i>AWS Secret Access Key</i>. Rewrite it carefully.</p>
   </li>
   
   </ul></ul>
@@ -72,6 +73,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
     <li>Then you will have to enter your own credentials as follows:
       <ul>
         <li><i><b>AWS Access Key ID</b></i>: go to <i>IAM</i>, then <i>Users</i>, and click on your user just created. Select <i>Security credentials</i> tab and copy the value of <i>AWS Access Key ID</i></li>
+        <li><i><b>AWS Secret Access Key</b></i>: Paste this code from your own notes. You have seen this code originally from <i>Security credentials</i> of your user.</li>
       </ul>
     </li>
   </ul>
