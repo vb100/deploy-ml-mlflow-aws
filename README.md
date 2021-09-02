@@ -164,6 +164,7 @@ Among the artifact files, there is a <i>conda.yaml</i> file. This is the environ
 When we are sure that our model can be sucessfully tracked with local <i>mlflow</i> user interface on your local machine, we can go forward to bring our model to the clouds.
 </p>
 
+<h2>Deplot the model to AWS</h2>
 <p><h3>Build a Docker Image and push it to AWS ECR</h3>
 <ul>
   <li><code>mlflow sagemaker build-and-push-container</code></li>
