@@ -74,6 +74,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
       <ul>
         <li><i><b>AWS Access Key ID</b></i>: go to <i>IAM</i>, then <i>Users</i>, and click on your user just created. Select <i>Security credentials</i> tab and copy the value of <i>AWS Access Key ID</i></li>
         <li><i><b>AWS Secret Access Key</b></i>: paste this code from your own notes. You have seen this code originally from <i>Security credentials</i> of your user.</li>
+        <li><i><b>Default region name</b></i>: go to main AWS interface, click on your region, and check which region is activated for you (<i>us-east-1</i>, <i>eu-west-1</i>, and so on).</li>
       </ul>
     </li>
   </ul>
