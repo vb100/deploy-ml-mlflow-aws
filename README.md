@@ -46,7 +46,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <ul>
     <li>Open <b><i>Identity and Access management (IAM) dashboard</i></b>.</ll>
   <li>Click on <b><i>Users</i></b>.</li>
-  <li>Click <b>Add users</b> on the right side of the screen.</li>
+  <li>Click <b>Add users</b> on the right side of the screenshot.</li>
   <li>Set the <i>User name</i> and mark <i>Programmatic access</i> tick below.</li>
   <li>Click on <i><b>Create group</b></i> as the part of <i>Add user to group</i> option.</li>
   <li>Type a group name you want to assign to your IAM User.</li>
@@ -145,8 +145,8 @@ Once we finished the latest step in this tutorial, <i>mlflow</i> is able to trac
   <li>Activate the same virtual environment on the second terminal window as we have created in <b>Step no. 1</b> with the following command: <code>conda activate deploy_ml</code></li>
   <li>Navigate you terminal to the project environment with <code>cd</code> (<i>change directory</i>) terminal command.</li>
   <li>From the second terminal window, simply run the model training code <i>train.py</i> with the command in your terminal: <code>python train.py</code>.</li>
-  <li>Once the train script executed sucessfully, you will be notificated about creation of new experiment in <i>mlflow</i>, calculated <i>MSE</i>, absolute directory path to model artifacts, and <code>runID</code>, see the screen below.<br>
-  <img src="images/Screenshot 2021-09-03 at 00.40.38.png" alt="Model trained sucessfully", width=595><br>
+  <li>Once the train script executed sucessfully, you will be notificated about creation of new experiment in <i>mlflow</i>, calculated <i>MSE</i>, absolute directory path to model artifacts, and <code>runID</code>, see the screenshot below.<br>
+  <img src="images/Screenshot 2021-09-03 at 00.40.38.png" alt="Model trained sucessfully", width=645><br>
   </li>
   <li>Open the browser window again where <i>mlflow</i> service is running on. <b>Refresh the browser window</b>. Then, on the left menu <i>Experiments</i> you will see updated list of experiments ran so far, which includes that one you ran recently in this step (<code>my_classification_model</code>), see the screenshot below.<br>
     <img src="images/Screenshot 2021-08-29 at 00.31.35.png" alt="Mlflow UI with new experiment", width=505><br>
