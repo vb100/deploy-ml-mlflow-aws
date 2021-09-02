@@ -96,7 +96,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
 </p>
 
 <h2>Prepare you Machine Learning model for <i>mlflow</i></h2>
-<p><h3>Step 4. Adapt your ML training code for <i>mlflow</i></h3>
+<p><h3>Step 1. Adapt your ML training code for <i>mlflow</i></h3>
 Usually we work with plain Python code in our local machine to train, debug and improve our ML models. In order to make out ML code be understandable for <i>mlflow</i> we must do quick changes in model training codes, described in the following steps.
 <ul>
   <li>Copy and paste the full code from <i>train.py</i> (available in this repo).</li>
@@ -138,7 +138,7 @@ with mlflow.start_run(run_name="My model experiment") as run:
 </ul>
 </p>
 
-<p><h3>Step 5. Run the model and track metrics in <i>mlflow</i></h3>
+<p><h3>Step 2. Run the model and track metrics in <i>mlflow</i></h3>
 Once we finished the latest step in this tutorial, <i>mlflow</i> is able to track desired metrics (in our example, <code>mse</code>) in <i>mlflow</i> dashboard. To do it properly, do the following:
 <ul>
   <li>Open another terminal windown (be sure the first one with activated <i>mlflow</i> service in port <code>:5000</code> is still running).</li>
