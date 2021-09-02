@@ -67,7 +67,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
   <ul>
   <li><b>Setup AWS CLI configuration</b></li>
   <ul>
-    <li>Be sure you have installed <i>AWS CLI</i> and type command in your terminal: <code>aws configure</code></li>
+    <li>Be sure you have installed <i>AWS CLI</i> and type command in your terminal: <code>aws configure</code>.</li>
   </ul>
   </ul>
 </ul>
