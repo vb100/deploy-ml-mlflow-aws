@@ -8,7 +8,7 @@
 With this repo you can follow the provided steps on your local machine and AWS account. All steps will be explained clearly with screens and real example.
 </p>
 
-<h2>Setup</h2>
+<h2>Setup the environment</h2>
 <p>For this tutorial you will need:
   <ul>
     <li>AWS Account.</li>
@@ -49,6 +49,7 @@ With this repo you can follow the provided steps on your local machine and AWS a
 </ul>
 </p>
 
+<h2>Prepare you Machine Learning model for <i>mlflow</i></h2>
 <p><h3>Step 4. Adapt your ML training code for <i>mlflow</i></h3>
 Usually we work with plain Python code in our local machine to train, debug and improve our ML models. In order to make out ML code be understandable for <i>mlflow</i> we must do quick changes in model training codes, described in the following steps.
 <ul>
