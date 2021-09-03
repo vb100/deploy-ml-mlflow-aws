@@ -176,7 +176,9 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
   <li>Once you finished the previous action without any issues, you should check local <b>Docker Desktop</b> to be sure that everything is well at this moment. Open your Docker Desktop application and go to <i>Images</i> section. You should see two images created. The first one indicates your <i><b>AWS ECR</b></i> container image, and the other one is <code>mlflow-pyfunc</code>. See the screenshot below.<br>
   <img src="images/Screenshot 2021-09-03 at 01.11.01.png" alt="Docker Images in Docker Dekstop", width=625><br>
   </li>
-  <li>Check <b>AWS ECR</b> repos.</li>
+  <li>Check <b>AWS ECR</b> repos list. You should see the same image name as it was listed first in Docker Desktop application. See the screenshot below.<br>
+  <img src="images/Screenshot 2021-09-03 at 01.12.20.png" alt="Docker Images in AWS ECR", width=625><br>
+  </li>
   <li>Check image parameters in <b>AWS ECR</b>.</li>
 </ul>
 </p>
