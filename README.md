@@ -181,6 +181,7 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
   </li>
   <li>Check image parameters in <b>AWS ECR</b> by clicking on <code>mlflow-pyfunc</code> image repository. On a image properties window you will see the main parameters of your image such as <i>Image URI</i>, <i>Size</i>, and other ones, see the screenshot below.<br>
   <img src="images/Screenshot 2021-09-03 at 01.13.01.png" alt="Docker Image Details in AWS ECR", width=625><br>
+    If you see the same set of image parameters with meaningful values, move forward with next steps.
   </li>
 </ul>
 </p>
