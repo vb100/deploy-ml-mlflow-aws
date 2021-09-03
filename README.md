@@ -173,7 +173,9 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
     <img src="images/Screenshot 2021-09-03 at 01.08.48.png" alt="Finished to Create Container Image", width=625><br>
     If you have set up AWS correctly with the proper permissions, this will build an image locally and push it to your image (name is <i>mlflow-pyfunc</i>) registry on AWS.
   </li>
-  <li>Check local <b>Docker Desktop</b></li>
+  <li>Once you finished the previous action without any issues, you should check local <b>Docker Desktop</b> to be sure that everything is well at this moment. Open your Docker Desktop application and go to <i>Images</i> section. You should see two images created. The first one indicates your <i><b>AWS ECR</b></i> container image, and the other one is <code>mlflow-pyfunc</code>. See the screenshot below.<br>
+  <img src="images/Screenshot 2021-09-03 at 01.11.01.png" alt="Docker Images in Docker Dekstop", width=625><br>
+  </li>
   <li>Check <b>AWS ECR</b> repos.</li>
   <li>Check image parameters in <b>AWS ECR</b>.</li>
 </ul>
