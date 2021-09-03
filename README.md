@@ -167,7 +167,9 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 <h2>Deploy the model to AWS</h2>
 <p><h3>Build a Docker Image and push it to AWS ECR</h3>
 <ul>
-  <li>On the second terminal windows, got to the <i>artifact</i> directory of selected model run in <i>mlruns</i> folder (in my example I set this directory as: <i>/mlruns/1/ccc73fe5e7784df69b8518e3b9daa0c6/artifacts/random-forest-model</i>), then type and run a command:<br><code>mlflow sagemaker build-and-push-container</code>.<br>You will see all processes running in real time in your terminal, as shown in a screenshot below.</li>
+  <li>On the second terminal windows, got to the <i>artifact</i> directory of selected model run in <i>mlruns</i> folder (in my example I set this directory as: <i>/mlruns/1/ccc73fe5e7784df69b8518e3b9daa0c6/artifacts/random-forest-model</i>), then type and run a command:<br><code>mlflow sagemaker build-and-push-container</code>.<br>You will see all processes running in real time in your terminal, as shown in a screenshot below.<br>
+    <img src="images/Screenshot 2021-09-03 at 01.05.35.png" alt="Creating Container Image in Terminal", width=725><br>
+  </li>
   <li>Check local <b>Docker Desktop</b></li>
   <li>Check <b>AWS ECR</b> repos.</li>
   <li>Check image parameters in <b>AWS ECR</b>.</li>
