@@ -171,6 +171,7 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
     <img src="images/Screenshot 2021-09-03 at 01.05.35.png" alt="Creating Container Image in Terminal", width=625><br>
     The finished processes on building and pushing Docker container images looks as it is in a screenshot below:<br>
     <img src="images/Screenshot 2021-09-03 at 01.08.48.png" alt="Finished to Create Container Image", width=625><br>
+    If you have set up AWS correctly with the proper permissions, this will build an image locally and push it to your image (name is <i>mlflow-pyfunc</i>) registry on AWS.
   </li>
   <li>Check local <b>Docker Desktop</b></li>
   <li>Check <b>AWS ECR</b> repos.</li>
