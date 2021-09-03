@@ -179,7 +179,9 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
   <li>Check <b>AWS ECR</b> repos list. You should see the same image name as it was listed first in Docker Desktop application. See the screenshot below.<br>
   <img src="images/Screenshot 2021-09-03 at 01.12.20.png" alt="Docker Images in AWS ECR", width=625><br>
   </li>
-  <li>Check image parameters in <b>AWS ECR</b>.</li>
+  <li>Check image parameters in <b>AWS ECR</b> by clicking on <code>mlflow-pyfunc</code> image repository. On a image properties window you will see the main parameters of your image such as <i>Image URI</i>, <i>Size</i>, and other ones, see the screenshot below.<br>
+  <img src="images/Screenshot 2021-09-03 at 01.13.01.png" alt="Docker Image Details in AWS ECR", width=625><br>
+  </li>
 </ul>
 </p>
 
