@@ -215,7 +215,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     
   </li>
   <ul>
-    <li><code>aws_id</code>:<br>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>. Keep this ID safe near by you, we will need it.</li>
+    <li><code>aws_id</code>:<br>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>.</li>
   <li>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
     <li>Click on <b><i>IAM</i></b> in AWS Concole.</li>
