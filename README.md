@@ -190,6 +190,30 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 Now all what we have to do is provide <i>mlflow</i> our image URL and desired model and then we can deploy these models to SageMaker.
 <ul>
   <li>Create a new Python script in your root project directory by terminal command <code>touch deploy.py</code>. This command will create a new file <i>deploy.py</i>.</li>
+  <li>Write the following script logic in the <i>deploy.py</i> you have just created:
+  
+```` py
+import mlflow.sagemaker as mfs
+
+run_id = "XXXXXXXXXXX"
+region = "us-east-1"
+aws_id = "XXXXXXXXXXX"
+arn = "arn:aws:iam::XXXXXXXXXXX:role/your-role"
+app_name = "model-application"
+model_uri = "mlruns/%s/%s/artifacts/random-forest-model" % (experiment_id, run_id)
+image_url = aws_id + ".dkr.ecr." + region + ".amazonaws.com/mlflow-pyfunc:1.2.0"
+
+mfs.deploy(app_name=app_name, 
+           model_uri=model_uri, 
+           region_name=region, 
+           mode="create",
+           execution_role_arn=arn,
+           image_url=image_url)
+````
+    
+    As you can see from the <i>deploy.py</i> skeleton code, we will need to get <code>run_id</code>, <code>region</code>, <code>aws_id</code>, ARN for <i>AmazonSageMakerFullAccess</i> (<code>arn</code>), <code>model_uri</code>, and <i>image_url</i>. Let's extract these values one by one.
+    
+  </li>
   <li>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>. Keep this ID safe near by you, we will need it.</li>
   <li>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
