@@ -189,6 +189,7 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 <p><h3>Step 2. Deploy image to Sagemmaker</h3>
 Now all what we have to do is provide <i>mlflow</i> our image URL and desired model and then we can deploy these models to SageMaker.
 <ul>
+  <li>Create a new Python script in your root project directory by terminal command <code>touch deploy.py</code>. This command will create a new file <i>deploy.py</i>.</li>
   <li>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>. Keep this ID safe near by you, we will need it.</li>
   <li>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
@@ -196,7 +197,7 @@ Now all what we have to do is provide <i>mlflow</i> our image URL and desired mo
     <li>Click on <b><i>Users</i></b>.</li>
     <li>Click on the User name you have created earlier.</li>
     <li>Click on <b><i>AmazonSageMakerFullAccess</i></b> in a list of policies on <i>Permissions</i> tab.</li>
-    <li>Finally, your <i>AmazonSageMakerFullAccess</i> policy URL will be found on the top of the screen, next to <i>Policy ARN</i> text. Just copy the ARN, we will use it firther.</li>
+    <li>Finally, your <i>AmazonSageMakerFullAccess</i> policy URL will be found on the top of the screen, next to <i>Policy ARN</i> text. Just copy the ARN, we will use it further.</li>
   </ul>
   </li>
 </ul>
