@@ -195,6 +195,7 @@ Now all what we have to do is provide <i>mlflow</i> our image URL and desired mo
 ```` py
 import mlflow.sagemaker as mfs
 
+experiment_id = "X"
 run_id = "XXXXXXXXXXX"
 region = "us-east-1"
 aws_id = "XXXXXXXXXXX"
@@ -215,6 +216,13 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     
   </li>
   <ul>
+    <li><code>experiment_id</code><br>
+      <ul>
+        <li>Open the <i>Mlflow</i> user interface in <i>http://127.0.0.1:5000</i>.</li>
+        <li>Click on your experiment (for example <b><i>my_classification_model</i></b>).</li>
+        <li>You will see an <i>Experiment ID</i> in the upper side of the screen next to Experiment ID text. Copy the value (in my case it is <code>1</code>).</li>
+      </ul>
+    </li>
     <li><code>run_id</code>:<br>
       <ul>
         <li>Open the <i>Mlflow</i> user interface in <i>http://127.0.0.1:5000</i>.</li>
