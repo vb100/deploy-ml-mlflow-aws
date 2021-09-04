@@ -241,6 +241,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     <li>Your User ARN will be displayed next to <i>User ARN</i> text on the upper side of the screen.</li>
   </ul>
   <li><code>region</code>:<br>Go to main AWS interface, click on your region, and check which region is activated for you (<i>us-east-1</i>, <i>eu-west-1</i>, and so on).</li>
+    <li><code>app_name</code>:<br>Set any name you want to recognize your application.</li>
   </li>
   </ul>
 </ul>
