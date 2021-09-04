@@ -215,6 +215,15 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     
   </li>
   <ul>
+    <li><code>run_id</code>:<br>
+      <ul>
+        <li>Open the <i>Mlflow</i> user interface in <i>http://127.0.0.1:5000</i>.</li>
+        <li>Click on your experiment (for example <b><i>my_classification_model</i></b>).</li>
+        <li>Click on run which has an image to an AWS ECR.</li>
+        <li>On <i><b>Artifacts</b></i> section expand the list of artifacts by clicking on an arrow, and select <i><b>MLModel</b></i>.</li>
+        <li>On the data window on the right, you can see main data about the model. One of these is <code>run_id</code>. Copy it.</li>
+      </ul>  
+      </li>
     <li><code>aws_id</code>:<br>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>.</li>
     <li><code>arn</code>:<br>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
