@@ -211,7 +211,7 @@ mfs.deploy(app_name=app_name,
            image_url=image_url)
 ````
     
-    As you can see from the <i>deploy.py</i> skeleton code, we will need to get <code>run_id</code>, <code>region</code>, <code>aws_id</code>, ARN for <i>AmazonSageMakerFullAccess</i> (<code>arn</code>), <code>model_uri</code>, and <i>image_url</i>. Let's extract these values one by one.
+As you can see from the <i>deploy.py</i> skeleton code, we will need to get <code>run_id</code>, <code>region</code>, <code>aws_id</code>, ARN for <i>AmazonSageMakerFullAccess</i> (<code>arn</code>), <code>model_uri</code>, and <i>image_url</i>. Let's extract these values one by one.
     
   </li>
   <li>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>. Keep this ID safe near by you, we will need it.</li>
