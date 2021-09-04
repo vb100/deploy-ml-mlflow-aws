@@ -216,13 +216,12 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
   </li>
   <ul>
     <li><code>aws_id</code>:<br>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>.</li>
-  <li>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
+    <li><code>arn</code><br>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
     <li>Click on <b><i>IAM</i></b> in AWS Concole.</li>
     <li>Click on <b><i>Users</i></b>.</li>
     <li>Click on the User name you have created earlier.</li>
-    <li>Click on <b><i>AmazonSageMakerFullAccess</i></b> in a list of policies on <i>Permissions</i> tab.</li>
-    <li>Finally, your <i>AmazonSageMakerFullAccess</i> policy URL will be found on the top of the screen, next to <i>Policy ARN</i> text. Just copy the ARN, we will use it further.</li>
+    <li>Your User ARN will be displayed next to <i>User ARN</i> text on the upper side of the screen.</li>
   </ul>
   </li>
   </ul>
