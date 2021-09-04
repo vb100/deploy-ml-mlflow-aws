@@ -214,6 +214,7 @@ mfs.deploy(app_name=app_name,
 As you can see from the <i>deploy.py</i> skeleton code, we will need to get <code>run_id</code>, <code>region</code>, <code>aws_id</code>, ARN for <i>AmazonSageMakerFullAccess</i> (<code>arn</code>), <code>model_uri</code>, and <i>image_url</i>. Let's extract these values one by one.
     
   </li>
+  <ul>
   <li>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>. Keep this ID safe near by you, we will need it.</li>
   <li>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
@@ -224,6 +225,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     <li>Finally, your <i>AmazonSageMakerFullAccess</i> policy URL will be found on the top of the screen, next to <i>Policy ARN</i> text. Just copy the ARN, we will use it further.</li>
   </ul>
   </li>
+  </ul>
 </ul>
 </p>
 
