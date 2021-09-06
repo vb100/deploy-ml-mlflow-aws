@@ -264,16 +264,22 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
 
 ```` py
 import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn import datasets
+import json
 import boto3
 
-      
+global app_name
+global region
+app_name = 'model-application'
+region = 'us-east-2'
+
 def check_status(app_name):
-    sage_client = boto3.client('sagemaker', region_name="us-east-2")
+    sage_client = boto3.client('sagemaker', region_name=region)
     endpoint_description = sage_client.describe_endpoint(EndpointName=app_name)
     endpoint_status = endpoint_description["EndpointStatus"]
     return endpoint_status
 
-      
 def query_endpoint(app_name, input_json):
     client = boto3.session.Session().client("sagemaker-runtime", region)
 
@@ -287,15 +293,20 @@ def query_endpoint(app_name, input_json):
     print("Received response: {}".format(preds))
     return preds
 
-      
 ## check endpoint status
 print("Application status is: {}".format(check_status(app_name)))
+
+# Prepare data to give for predictions
+iris = datasets.load_iris()
+x = iris.data[:, 2:]
+y = iris.target
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=7)
 
 ## create test data and make inference from enpoint
 query_input = pd.DataFrame(X_train).iloc[[3]].to_json(orient="split")
 prediction1 = query_endpoint(app_name=app_name, input_json=query_input)  
 ````
-    
+    AAA
     </li>
   </ul>
 </p>
