@@ -114,7 +114,7 @@ mlflow.set_experiment("my_classification_model")
   
 ```` py
 with mlflow.start_run(run_name="My model experiment") as run:
-    mlflow.log_param("num_estimators",num_estimators)
+    mlflow.log_param("num_estimators", num_estimators)
 ````
   
 ```` py
