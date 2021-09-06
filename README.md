@@ -258,7 +258,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
 <h2>Use the model with the new data</h2>
 <p>Once you are sure that your model is running in AWS, you can make a new prediction for a new given data with the help of <code>boto3</code> library. Follow the following steps to do it.
   <ul>
-    <li>Open the terminal with activated virtual environment <i>deplot_ml</i>.</li>
+    <li>Open the terminal with activated virtual environment <i>deploy_ml</i>.</li>
     <li>Create a new file <i>predict.py</i> with command <code>touch predict.py</code>.</li>
     <li>For <i>predict.py</i> use this Python code:<br>
 
@@ -306,7 +306,8 @@ X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_
 query_input = pd.DataFrame(X_train).iloc[[3]].to_json(orient="split")
 prediction1 = query_endpoint(app_name=app_name, input_json=query_input)  
 ````
-    AAA
     </li>
+    <li>Save the <i>predict.py</i> file.</li>
+    <li>Open again the terminal with activated virtual environment <i>deploy_ml</i> and run the file with command <code>python predict.py</code>.</li>
   </ul>
 </p>
