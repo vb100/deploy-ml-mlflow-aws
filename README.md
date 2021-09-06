@@ -247,6 +247,9 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     <li><code>tag_id</code><br>This the version of <i>mlflow</i>. Open <b><i>AWS ECR</i></b>, then open your repository, and copy the value of <i>Image tag</i>.</li>
   </li>
   </ul>
+  <li>
+  <b>Test Test Test</b>
+  </li>
 </ul>
 </p>
 
