@@ -304,7 +304,7 @@ X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_
 
 ## create test data and make inference from enpoint
 query_input = pd.DataFrame(X_train).iloc[[3]].to_json(orient="split")
-prediction1 = query_endpoint(app_name=app_name, input_json=query_input)  
+prediction = query_endpoint(app_name=app_name, input_json=query_input)  
 ````
       
 </li>
