@@ -308,6 +308,7 @@ prediction1 = query_endpoint(app_name=app_name, input_json=query_input)
 ````
       
 </li>
+    <li>Set variables <code>app_name</code> and <code>region</code> based on your preferences.</li>
     <li>Save the <i>predict.py</i> file.</li>
     <li>Open again the terminal with activated virtual environment <i>deploy_ml</i> and run the file with command <code>python predict.py</code>.</li>
   </ul>
