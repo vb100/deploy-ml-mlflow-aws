@@ -250,8 +250,8 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
   <li>
   <b>Create an <i>IAM</i> Role for <i>AmazonSageMakerFullAccess</i> policy.</b>
   <ul>
-    <li>Open <b>IAM<b> Dashboard.</li>
-      <li>CLick on <b><i>Create role</i></b>.</li>
+    <li>Open <b>IAM</b> Dashboard.</li>
+      <li>Click on <b><i>Create role</i></b>.</li>
       <li>Select <b>SageMaker</b> service from the given list and click <b><i>Next: Permissions</i></b>.</li>
       <li>Click <b><i>Next: Tags</i></b>.</li>
       <li>Once you completed to create this role, copy Role ARN for further usage (<i>Role ARN</i>).</li>
