@@ -247,7 +247,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     <li><code>app_name</code>:<br>Set any name you want to recognize your application.</li>
     <li><code>tag_id</code><br>This the version of <i>mlflow</i>. Open <b><i>AWS ECR</i></b>, then open your repository, and copy the value of <i>Image tag</i>.</li>
   </li>
-  </ul>
+  </ul><br>
   <li>Open again terminal with activated virtual environment <i>deploy_ml</i> and enter run the <i>deploy.py</i> Python script with the command: <code>python deploy.py</code>.<br>The output should be notify you about sucessfuly complete deploying the image to <i>SageMaker</i>, see the screen below.<br>
 <img src="images/Screenshot 2021-09-06 at 01.24.01.png" alt="Sucessfully deployed model to SageMaker", width=675><br>
   <p>You should see the <i>inService</i> message in you terminal resuting into sucessfully deployed model to <i>SageMaker</i>.</p>
