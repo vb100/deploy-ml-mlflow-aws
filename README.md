@@ -249,6 +249,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
   </li>
   </ul>
   <li>Open again terminal with activated virtual environment <i>deploy_ml</i> and enter run the <i>deploy.py</i> Python script with the command: <code>python deploy.py</code>.<br>The output should be notify you about sucessfuly complete deploying the image to <i>SageMaker</i>, see the screen below.<br>
+<img src="images/Screenshot 2021-09-06 at 01.24.01.png" alt="Sucessfully deployed model to SageMaker", width=615><br>
 </li>
 </ul>
 </p>
