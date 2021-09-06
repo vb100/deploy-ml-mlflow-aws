@@ -266,12 +266,14 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
 import pandas as pd
 import boto3
 
+      
 def check_status(app_name):
     sage_client = boto3.client('sagemaker', region_name="us-east-2")
     endpoint_description = sage_client.describe_endpoint(EndpointName=app_name)
     endpoint_status = endpoint_description["EndpointStatus"]
     return endpoint_status
 
+      
 def query_endpoint(app_name, input_json):
     client = boto3.session.Session().client("sagemaker-runtime", region)
 
@@ -285,6 +287,7 @@ def query_endpoint(app_name, input_json):
     print("Received response: {}".format(preds))
     return preds
 
+      
 ## check endpoint status
 print("Application status is: {}".format(check_status(app_name)))
 
