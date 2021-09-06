@@ -237,26 +237,17 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
     <li><code>aws_id</code>:<br>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>.</li>
     <li><code>arn</code>:<br>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
   <ul>
-    <li>Click on <b><i>IAM</i></b> in AWS Concole.</li>
-    <li>Click on <b><i>Users</i></b>.</li>
-    <li>Click on the User name you have created earlier.</li>
-    <li>Your User ARN will be displayed next to <i>User ARN</i> text on the upper side of the screen.</li>
-  </ul>
-  <li><code>region</code>:<br>Go to main AWS interface, click on your region, and check which region is activated for you (<i>us-east-1</i>, <i>eu-west-1</i>, and so on).</li>
-    <li><code>app_name</code>:<br>Set any name you want to recognize your application.</li>
-    <li><code>tag_id</code><br>This the version of <i>mlflow</i>. Open <b><i>AWS ECR</i></b>, then open your repository, and copy the value of <i>Image tag</i>.</li>
-  </li>
-  </ul>
-  <li>
-  <b>Create an <i>IAM</i> Role for <i>AmazonSageMakerFullAccess</i> policy.</b>
-  <ul>
     <li>Open <b>IAM</b> Dashboard.</li>
       <li>Click on <b><i>Create role</i></b>.</li>
       <li>Select <b>SageMaker</b> service from the given list and click <b><i>Next: Permissions</i></b>.</li>
       <li>Click <b><i>Next: Tags</i></b>.</li>
       <li>Once you completed to create this role, copy Role ARN for further usage (<i>Role ARN</i>).</li>
   </ul>
+  <li><code>region</code>:<br>Go to main AWS interface, click on your region, and check which region is activated for you (<i>us-east-1</i>, <i>eu-west-1</i>, and so on).</li>
+    <li><code>app_name</code>:<br>Set any name you want to recognize your application.</li>
+    <li><code>tag_id</code><br>This the version of <i>mlflow</i>. Open <b><i>AWS ECR</i></b>, then open your repository, and copy the value of <i>Image tag</i>.</li>
   </li>
+  </ul>
 </ul>
 </p>
 
