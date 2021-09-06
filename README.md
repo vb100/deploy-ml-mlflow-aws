@@ -311,5 +311,7 @@ prediction1 = query_endpoint(app_name=app_name, input_json=query_input)
     <li>Set variables <code>app_name</code> and <code>region</code> based on your preferences.</li>
     <li>Save the <i>predict.py</i> file.</li>
     <li>Open again the terminal with activated virtual environment <i>deploy_ml</i> and run the file with command <code>python predict.py</code>.</li>
+    <li>As a result, you should see an <i>inService</i> message in terminal informing about sucessful new prediction made in the cloud.</li>
   </ul>
+  <p>Once you sucessfully did all the steps above and achieved the same results, in order to avoid extra billing, do not forget to remove <i>SageMaker</i> endpoint and <i>AWS ECR</i> repository with Docker image.</p>
 </p>
