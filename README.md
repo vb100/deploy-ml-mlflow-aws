@@ -186,7 +186,7 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 </ul>
 </p>
 
-<p><h3>Step 2. Deploy image to Sagemmaker</h3>
+<p><h3>Step 2. Deploy image to Sagemaker</h3>
 Now all what we have to do is provide <i>mlflow</i> our image URL and desired model and then we can deploy these models to SageMaker.
 <ul>
   <li>Create a new Python script in your root project directory by terminal command <code>touch deploy.py</code>. This command will create a new file <i>deploy.py</i>.</li>
@@ -253,4 +253,46 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
   <p>You should see the <i>inService</i> message in you terminal resuting into sucessfully deployed model to <i>SageMaker</i>.</p>
 </li>
 </ul>
+</p>
+
+<h2>Use the model with the new data</h2>
+<p>Once you are sure that your model is running in AWS, you can make a new prediction for a new given data with the help of <code>boto3</code> library. Follow the following steps to do it.
+  <ul>
+    <li>Open the terminal with activated virtual environment <i>deplot_ml</i>.</li>
+    <li>Create a new file <i>predict.py</i> with command <code>touch predict.py</code>.</li>
+    <li>For <i>predict.py</i> use this Python code:<br>
+
+```` py
+import pandas as pd
+import boto3
+
+def check_status(app_name):
+    sage_client = boto3.client('sagemaker', region_name="us-east-2")
+    endpoint_description = sage_client.describe_endpoint(EndpointName=app_name)
+    endpoint_status = endpoint_description["EndpointStatus"]
+    return endpoint_status
+
+def query_endpoint(app_name, input_json):
+    client = boto3.session.Session().client("sagemaker-runtime", region)
+
+    response = client.invoke_endpoint(
+        EndpointName=app_name,
+        Body=input_json,
+        ContentType='application/json; format=pandas-split',
+    )
+    preds = response['Body'].read().decode("ascii")
+    preds = json.loads(preds)
+    print("Received response: {}".format(preds))
+    return preds
+
+## check endpoint status
+print("Application status is: {}".format(check_status(app_name)))
+
+## create test data and make inference from enpoint
+query_input = pd.DataFrame(X_train).iloc[[3]].to_json(orient="split")
+prediction1 = query_endpoint(app_name=app_name, input_json=query_input)  
+````
+    
+    </li>
+  </ul>
 </p>
