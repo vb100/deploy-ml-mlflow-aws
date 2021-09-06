@@ -244,6 +244,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
   </ul>
   <li><code>region</code>:<br>Go to main AWS interface, click on your region, and check which region is activated for you (<i>us-east-1</i>, <i>eu-west-1</i>, and so on).</li>
     <li><code>app_name</code>:<br>Set any name you want to recognize your application.</li>
+    <li><code>tag_id</code><br>This the version of <i>mlflow</i>. Open <b><i>AWS ECR</i></b>, then open your repository, and copy the value of <i>Image tag</i>.</li>
   </li>
   </ul>
 </ul>
