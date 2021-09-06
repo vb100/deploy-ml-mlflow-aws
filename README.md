@@ -235,7 +235,7 @@ As you can see from the <i>deploy.py</i> skeleton code, we will need to get <cod
       </ul>  
       </li>
     <li><code>aws_id</code>:<br>Get your AWS ID from the terminal by running this command: <code>aws sts get-caller-identity --query Account --output text</code>.</li>
-    <li><code>arn</code>:<br>Copy the ARN for the <i>SageMakerFullAccess</i> role you have created earlier.
+    <li><code>arn</code>:<br>Create the Role for the <i>SageMakerFullAccess</i> and grab it's <i>ARN</i>.
   <ul>
     <li>Open <b>IAM</b> Dashboard.</li>
       <li>Click on <b><i>Create role</i></b>.</li>
