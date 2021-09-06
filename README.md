@@ -306,6 +306,7 @@ X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_
 query_input = pd.DataFrame(X_train).iloc[[3]].to_json(orient="split")
 prediction1 = query_endpoint(app_name=app_name, input_json=query_input)  
 ````
+      
     </li>
     <li>Save the <i>predict.py</i> file.</li>
     <li>Open again the terminal with activated virtual environment <i>deploy_ml</i> and run the file with command <code>python predict.py</code>.</li>
