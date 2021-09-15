@@ -188,6 +188,15 @@ When we are sure that our model can be sucessfully tracked with local <i>mlflow<
 
 <p><h3>Step 2. Deploy image to Sagemaker</h3>
 Now all what we have to do is provide <i>mlflow</i> our image URL and desired model and then we can deploy these models to SageMaker.
+<p>
+  <b>Important:</b> Before doing all following steps, you should create a special CLI token between your terminal and AWS. For this <code>boto3</code> package is responsible, and you can do it in very simple way, just by setting your environment variables in your terminal like following:
+  <ul>
+    <li>Type <code>AWS_ACCESS_KEY=XXXXXXXXX</code>, where <code>XXXXXXXXX</code> is your <i>AWS Access Key</i> for your <i>User</i> in AWS.</li>
+    <li>Type <code>AWS_SECRET_ACCESS_KEY=XXXXXXXXX</code>, where <code>XXXXXXXXX</code> is your <i>AWS Secret Access Key</i> for your <i>User</i> in AWS.</li>
+</ul>
+Ocje you set your virtual environment, the terminal with active CLI is able to communicate with AWS services and make required operations.
+</p>
+
 <ul>
   <li>Create a new Python script in your root project directory by terminal command <code>touch deploy.py</code>. This command will create a new file <i>deploy.py</i>.</li>
   <li>Write the following script logic in the <i>deploy.py</i> you have just created:
