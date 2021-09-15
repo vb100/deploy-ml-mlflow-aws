@@ -327,7 +327,7 @@ prediction = query_endpoint(app_name=app_name, input_json=query_input)
   <p>Once you sucessfully did all the steps above and achieved the same results, in order to avoid extra billing, do not forget to remove <i>SageMaker</i> endpoint and <i>AWS ECR</i> repository with Docker image.</p>
 </p>
 
-<h1></h1>
+<h1>Youtube Tutorial is live now - all explained without missing parts</h1>
 <p>
 <h3>Full Hands-on tutorial of this repo is available now on Youtube!</h3>
 <img src="images/cover_ml_deploy_smaller.png" alt="Youtube tutorial - full explained", width=595><br>
