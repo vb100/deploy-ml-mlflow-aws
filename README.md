@@ -330,5 +330,6 @@ prediction = query_endpoint(app_name=app_name, input_json=query_input)
 <h1></h1>
 <p>
 <h3>Full Hands-on tutorial of this repo is available now on Youtube!</h3>
+<img src="images/cover_ml_deploy_smaller.png" alt="Youtube tutorial - full explained", width=595><br>
 <a href="https://youtu.be/FsoSBsrcx9Q">Video Tutorial: Deploy ML model to AWS Sagemaker with mlflow and Docker</a>
 </p>
